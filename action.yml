@@ -1,0 +1,8 @@
+name: "ESP32 build with idf SDK"
+description: "Build firmware using Espressif's idf SDK using official docker images."
+branding:
+  color: blue
+  icon: check
+runs:
+  using: "docker"
+  image: "Dockerfile"
